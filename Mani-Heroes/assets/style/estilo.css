@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.topo{
+    height: 50px;
+    background-color: #353535;
+    color: #fff;
+}
+
+.topo-interno{
+    width: 1000px;
+    margin: auto;
+}
+
+.logo{
+    float: left;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: -4px;
+    
+}
+
+.menu a:hover{
+    background-color: #c134bf;
+}
+
+.banner{
+    height: 300px;
+    background-color: #c134bf;
+}
+
+.banner-interno{
+    width: 1000px;
+    margin: auto;
+}
+
+.banner-esquerdo{
+    float: left;
+}
+
+.banner-direito{
+    float: right;
+}
+
+.wonder{
+    width: 300px;
+}
+
+.frase1{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.frase2{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-blue{
+    background-color: #016fff;
+    color: #fff;
+    font-size: 20px;
+    width: 282px;
+    height: 56px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btn-blue:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.conteudo{
+    width: 1000px;
+    margin: auto;
+}
+
+.outros-produtos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    height: 90px;
+    font-size: 24px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fotos{
+    margin-left: -70px;
+    display: flex;
+}
+
+.others{
+    width: 280px;
+    transition: all .5s;
+}
+
+.others:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 12px rgba(33, 33, 33, 0.402); 
+}
+
+.rodape{
+    background-color: #c134bf;
+    height: 61px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin-top: 110px;
+}

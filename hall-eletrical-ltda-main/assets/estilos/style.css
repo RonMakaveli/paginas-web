@@ -1,0 +1,148 @@
+/* Estilos globais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o cabeçalho */
+header {
+    background-color: #00000099;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para espaçamento entre elementos */
+.spacing {
+    gap: 20px;
+}
+
+/* Estilos para layout flexível */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Estilos para o contêiner do cabeçalho */
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Estilos para o logotipo */
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Estilos para o menu */
+.menu-header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-header li {
+    margin-right: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+
+.menu-header li:hover {
+    color: #c7c7c7;
+}
+
+/* Estilos para o botão de mídia social */
+
+.social-media {
+    white-space: nowrap;
+}
+
+.social-media button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s
+}
+  
+.social-media button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ---------------------------------------- Container imagem ---------------------------------------- */
+
+.image-container {
+  display: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  position: relative;
+}
+
+.image-container.active {
+  display: block;
+  opacity: 1;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+
+.image-container p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #ffffff; /* Altere a cor do texto conforme necessário */
+    font-size: 18px; /* Altere o tamanho da fonte conforme necessário */
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.text-galery-one, .text-galery-two, .text-galery-three{
+    font-family: Georgia, serif;
+    font-size: 54px;
+    letter-spacing: 4px;
+    word-spacing: 0px;
+    color: #ffffff;
+    background-color: #4a627080;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+  

@@ -1,0 +1,107 @@
+/* Configurações gerais */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #ffffff;
+    --soft-grey: #c0c0c0;
+    --dark-grey: #636363;
+    --white-alpha-40: rgba(255, 255, 255, 0.40);
+    --white-alpha-25: rgba(0, 0, 0, 0.548);
+
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, var(--soft-grey), var(--dark-grey));
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.5;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    padding: 35px 15px;
+    overscroll-behavior: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.12;
+}
+
+section{
+    background-color: var(--white-alpha-25);
+    border: 1px solid var(--white-alpha-40);
+    min-height: calc(90vh);
+    min-width: 400px;
+    border-radius: 50px;
+    backdrop-filter: var(--backdrop-filter-blur);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.cover-content{
+    margin-top: 20px;
+    width: 370px;
+    height: 370px;
+    border-radius: 40px;
+}
+
+
+.container-name{
+    margin-top: 10px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.song-name-text{
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-name-text span{
+    display: flex;
+    align-items: center;
+}
+
+.song-name-text span img{
+    filter: invert();
+}
+
+.artist-name-text{
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(159,160,164,255);
+}
+
+.audio{
+    background-color: none;
+}
