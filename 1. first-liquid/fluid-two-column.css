@@ -1,0 +1,39 @@
+/* 
+O código abaixo define estilos CSS para diferentes elementos em uma estrutura de layout.
+As propriedades de margem, preenchimento e borda são zeradas para todos os elementos.
+O elemento com o ID "wrapper" tem uma borda de 1px sólida preta.
+O elemento com o ID "header" tem uma borda inferior de 1px sólida preta, preenchimento de 10px e cor de fundo cinza claro.
+O elemento com o ID "menu" tem largura de 180px, é flutuante à esquerda, tem preenchimento de 10px e uma borda direita de 1px sólida preta.
+O elemento com o ID "content" tem uma margem esquerda de 200px, uma borda esquerda de 1px sólida preta, preenchimento de 10px, altura de linha de 2em.
+A classe "clearer" é usada para limpar as flutuações anteriores e garantir que o conteúdo subsequente seja posicionado corretamente. 
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+	border: 1px solid #000;
+}
+#header{
+	border-bottom: 1px solid #000;
+	padding: 10px;
+	background-color: #eee;
+}
+#menu{
+	width: 180px;
+	float: left;
+	padding: 10px;
+	border-right: 1px solid #000;
+}
+#content {
+	margin-left: 200px;
+	border-left: 1px solid #000;
+	padding: 10px;
+	line-height: 2em;
+}
+.clearer {
+	clear: both;
+}

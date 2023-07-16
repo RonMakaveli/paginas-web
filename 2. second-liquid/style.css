@@ -1,0 +1,43 @@
+#mainMenu {
+	margin: 1%;
+	width: 90%;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	position: relative;
+    display: block;
+	width: 13.33%;
+	float: left;
+	margin-left: 0.66%;
+	border: 1px solid #000;
+}
+#mainMenu a {
+	display: block;
+	padding: 0.5%;
+	text-decoration: none;
+	background-color: #fff;
+	color: #009;
+}
+#mainMenu a:hover {
+	background-color: #009;
+	color: #fff;
+}
+#mainMenu li ul {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	left: -0.33%;
+	top: 2.44%;
+	display: none;
+}
+#mainMenu li ul li {
+	width: 16.66%;
+	font-size: smaller;
+	border-top: none;
+}
+#mainMenu li ul li:first-child {
+	border-top: 1px solid #000;
+}
+#mainMenu li:hover ul {
+	display: block;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Gilda+Display&family=Manrope:wght@600&family=Nosifer&family=Quicksand&family=Six+Caps&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+ display: flex;
+ justify-content: space-between;
+ height: 150px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.text-logo{
+    font-family: 'Gilda Display', serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.sultan{
+    font-size: 70px;
+    font-family: 'Six Caps', sans-serif;
+    margin-top: -35px;
+}
+
+#link-externo{
+    height: 40px;
+}
+
+.outras{
+    margin-right: 40px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+.outras:hover{
+    transform: scale(1.1);
+}
+
+.box{
+    width: 18px;
+    height: 18px;
+    padding-left: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li{
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .7s;
+}
+
+.better{
+    font-family: 'Black Ops One', cursive;
+    font-size: 25px;
+}
+
+.smoking{
+    font-family: 'Black Ops One', cursive;
+    font-size: 36px;
+    margin-top: -25px;
+}
+
+.milk{
+    font-family: 'Nosifer', cursive;
+    font-size: 50px;
+    margin-top: -30px;
+}
+
+.ink{
+    font-family: 'Nosifer', cursive;
+    font-size: 50px;
+    margin-top: -80px;
+}
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.conteudo-1-button{
+    margin-top: -30px;
+}
+
+.buy{
+    color: #fff;
+    background-color: #000;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.buy:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.watch{
+    color: #000;
+    background-color: #fff;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.watch:hover{
+    background-color: #ffd500;
+    color: #000;
+    border: solid 1px #ffd500;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.face, .tweet, .insta{
+    color: #7a7a7a;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.face:hover{
+    color: #0263cb;
+    transform: scale(1.2);
+}
+
+.insta:hover{
+    background-image: linear-gradient(to right, #8a3ab9, #e95950, #bc2a8d, 
+    #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.2);
+}
+
+.tweet:hover{
+    color: #00a2ff;
+    transform: scale(1.2);
+}
+
+
+
+.acessorios{
+    width: 300px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #6565658e;
+}
+
+.acessorios-link a{
+    text-decoration: none;
+    color: #7a7a7a;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.miid:hover, .sup:hover, .part:hover{
+    transform: scale(1.2);
+    color: #fbad50;
+}

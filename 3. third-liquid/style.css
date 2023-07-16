@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex; /* será exibido como um contêiner flexível. */
+    flex-wrap: wrap; /* elementos dentro serão quebrados para a próxima linha*/
+    gap: 6px; /* define um espaçamento de 6 pixels entre os elementos filhos do <form> */
+}
+.name{
+    flex: 0 1 130px; /* 0 indica que o elemento não crescerá nem encolherá além de seu tamanho  */
+    /* 1 indica que o elemento pode encolher se necessário.*/
+    /* 130px é o tamanho inicial do elemento quando ele é exibido como flexível. */
+}
+.email{
+    flex: 0 1 130px;
+}
+button{
+    flex: 0 1 40px;
+}
+
+/* 
+Essas regras de estilo são aplicadas aos elementos HTML que possuem as classes correspondentes. Por exemplo, se houver um elemento <div class="name">, ele será exibido como um bloco ocupando toda a largura disponível. Se houver um elemento <input class="email">, ele poderá encolher, se necessário, para um tamanho mínimo de 130 pixels de largura. E, finalmente, se houver um elemento <button>, ele também poderá encolher, se necessário, para um tamanho mínimo de 40 pixels de largura
+*/

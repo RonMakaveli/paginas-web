@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to right, #000428, #004e92);
+}
+
+.calendar {
+    position: relative;
+    width: 260px;
+}
+
+.calendar .calendar-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 80px;
+    backdrop-filter: blur(10px);
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    position: relative;
+    left: 170px;
+    top: 50px;
+}
+
+.month {
+    color: #fff;
+    background: green;
+    width: 100%;
+    font-size: 1.7em;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.day {
+    color: #fff;
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+.date {
+    color: #fff;
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.year {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}

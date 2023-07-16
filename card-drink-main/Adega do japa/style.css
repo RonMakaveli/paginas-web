@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'japa';
+    src: url(assets/fontes/a_asian_ninja/aAsianNinja.ttf);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(assets/img/image\ \(3\).png);
+    flex-direction: column;
+    position: relative;
+}
+
+.card{
+    flex-direction: column;
+    height: auto;
+    width:450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.07);
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+.logo h3{
+    font-weight: 100;
+    font-size: 32px;
+    font-family: 'japa';
+    color: #fff;
+    filter: drop-shadow(-1px 2px 2px #ff0000);
+}
+
+.logo img{
+    width: 200px;
+    filter: drop-shadow(-1px 2px 2px #ff0000);
+}
+
+.drink{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+.drink img{
+    width: 300px;
+}
+
+.texto{
+    margin-top: 60px;
+    align-items: center;
+    font-family: 'japa';
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto h3{
+    font-weight: 100;
+    font-size: 32px;
+    font-family: 'japa';
+    margin-bottom: 15px;
+}
+
+.texto p{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#gelo img{
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    width: 600px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+.shape img{
+width: 260px;
+}
+
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.shape:first-child{
+    left: -60px;
+    top: -80px;
+}
+
+.shape:nth-child(2){
+    right: 35px;
+    bottom: 210px;
+}
+
+.shape:last-child{
+    left: -50px;
+    bottom: -150px;
+}
