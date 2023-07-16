@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Gorjeta</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <section class="container">
+
+        <h1>Calculadora de Gorjeta</h1>
+        <form class="form">
+            <input  placeholder="Valor Total da Conta:" type="number" id="totalConta" step="0.01" min="0">
+        
+            <input placeholder="Porcentagem da Gorjeta:" type="number" id="porcentagemGorjeta" step="1" min="0">
+            
+            <button type="button" onclick="calcularGorjeta()">Calcular Gorjeta</button>
+        </form>
+    
+        <h2>Resultados:</h2>
+        <p>Gorjeta: R$ <span id="valorGorjeta"></span></p>
+        <p>Total a Pagar: R$ <span id="valorTotal"></span></p>
+
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
